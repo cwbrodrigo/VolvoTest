@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TesteVolvo.Domain.Interfaces;
+using TesteVolvo.Infra.Repository;
 
 namespace Web
 {

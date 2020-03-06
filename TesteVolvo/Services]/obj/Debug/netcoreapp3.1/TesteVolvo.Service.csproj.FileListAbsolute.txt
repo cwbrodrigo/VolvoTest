@@ -2,3 +2,12 @@ C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcorea
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Service.dll
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.AssemblyInfoInputs.cache
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.AssemblyInfo.cs
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Service.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.csprojAssemblyReference.cache
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.csproj.CopyComplete
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.pdb

@@ -9,5 +9,6 @@ namespace TesteVolvo.Domain
         public string Nome { get; set; }
         public Modelo Modelo { get; set; }
         public DateTime AnoFabricacao { get; set; }
+        public DateTime AnoModelo { get; set; }
     }
 }

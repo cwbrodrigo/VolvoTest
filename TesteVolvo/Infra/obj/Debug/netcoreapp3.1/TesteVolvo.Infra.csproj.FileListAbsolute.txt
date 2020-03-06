@@ -2,3 +2,12 @@ C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.dll
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.AssemblyInfoInputs.cache
 C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.AssemblyInfo.cs
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.csprojAssemblyReference.cache
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.runtimeconfig.json
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.runtimeconfig.dev.json
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Infra.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.csproj.CopyComplete
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Infra\obj\Debug\netcoreapp3.1\TesteVolvo.Infra.pdb

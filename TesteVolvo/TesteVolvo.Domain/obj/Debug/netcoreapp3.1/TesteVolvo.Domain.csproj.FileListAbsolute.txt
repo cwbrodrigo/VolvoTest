@@ -1,0 +1,8 @@
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.deps.json
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\bin\Debug\netcoreapp3.1\TesteVolvo.Domain.pdb
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\obj\Debug\netcoreapp3.1\TesteVolvo.Domain.csprojAssemblyReference.cache
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\obj\Debug\netcoreapp3.1\TesteVolvo.Domain.AssemblyInfoInputs.cache
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\obj\Debug\netcoreapp3.1\TesteVolvo.Domain.AssemblyInfo.cs
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\obj\Debug\netcoreapp3.1\TesteVolvo.Domain.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\TesteVolvo.Domain\obj\Debug\netcoreapp3.1\TesteVolvo.Domain.pdb
