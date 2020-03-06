@@ -1,0 +1,4 @@
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Service.deps.json
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\bin\Debug\netcoreapp3.1\TesteVolvo.Service.dll
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.AssemblyInfoInputs.cache
+C:\Users\leona\Documents\Volvo\VolvoTest\TesteVolvo\Services]\obj\Debug\netcoreapp3.1\TesteVolvo.Service.AssemblyInfo.cs
