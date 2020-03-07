@@ -35,41 +35,7 @@ namespace TesteVolvo.WebApplication.Controllers
         {
             List<SelectListItem> lstModelo = new List<SelectListItem>();
 
-            SelectListItem item1 = new SelectListItem
-            {
-                Text = Modelo.FH.ToString(),
-                Value = "1"
-            };
-
-            SelectListItem item2 = new SelectListItem
-            {
-                Text = Modelo.FM.ToString(),
-                Value = "2"
-            };
-
-            lstModelo.Add(item1);
-            lstModelo.Add(item2);
-
-            ViewBag.ListModelo = lstModelo;
-
-            List<SelectListItem> lstAno = new List<SelectListItem>();
-
-            SelectListItem ano1 = new SelectListItem
-            {
-                Text = "2020",
-                Value = "2020"
-            };
-
-            SelectListItem ano2 = new SelectListItem
-            {
-                Text = "2021",
-                Value = "2021"
-            };
-
-            lstAno.Add(ano1);
-            lstAno.Add(ano2);
-
-            ViewBag.ListAno = lstAno;
+            ViewBagCreate();
 
             return View(new Caminhao());
         }
@@ -79,6 +45,48 @@ namespace TesteVolvo.WebApplication.Controllers
         {
             var model = service.Select(id);
 
+            ViewBagCreate();
+
+            return View(model);
+        }
+        #endregion
+
+        #region POST
+        [HttpPost]
+        public IActionResult Insert(Caminhao model)
+        {
+            if (ModelState.IsValid)
+            {
+                service.Post<Caminhao>(model);
+
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+        public IActionResult Update(Caminhao model)
+        {
+            if (ModelState.IsValid)
+            {
+                service.Put<Caminhao>(model);
+
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+        public IActionResult Excluir(int id)
+        {
+            service.Delete(id);
+
+            return RedirectToAction("Index");
+        }
+        #endregion
+
+        public void ViewBagCreate()
+        {
             List<SelectListItem> lstModelo = new List<SelectListItem>();
 
             SelectListItem item1 = new SelectListItem
@@ -98,7 +106,7 @@ namespace TesteVolvo.WebApplication.Controllers
 
             ViewBag.ListModelo = lstModelo;
 
-            List<SelectListItem> lstAno = new List<SelectListItem>();
+            List<SelectListItem> lstAnoModelo = new List<SelectListItem>();
 
             SelectListItem ano1 = new SelectListItem
             {
@@ -112,54 +120,23 @@ namespace TesteVolvo.WebApplication.Controllers
                 Value = "2021"
             };
 
-            lstAno.Add(ano1);
-            lstAno.Add(ano2);
+            lstAnoModelo.Add(ano1);
+            lstAnoModelo.Add(ano2);
 
-            ViewBag.ListAno = lstAno;
+            List<SelectListItem> anoFabricacao = new List<SelectListItem>();
 
-            return View(model);
-        }
-        #endregion
-
-        #region POST
-        [HttpPost]
-        public IActionResult Insert(Caminhao model)
-        {
-            if (ModelState.IsValid)
+            SelectListItem anoFab = new SelectListItem
             {
+                Text = "2020",
+                Value = "2020"
+            };
 
-                model.AnoFabricacao = "2020";
+            anoFabricacao.Add(anoFab);
 
-                service.Post<Caminhao>(model);
+            ViewBag.ListAno = lstAnoModelo;
 
-                return RedirectToAction("Index");
-            }
-
-            return View();
+            ViewBag.AnoFabricacao = anoFabricacao;
         }
-
-        public IActionResult Update(Caminhao model)
-        {
-            if (ModelState.IsValid)
-            {
-
-                model.AnoFabricacao = "2020";
-
-                service.Put<Caminhao>(model);
-
-                return RedirectToAction("Index");
-            }
-
-            return View();
-        }
-
-        public IActionResult Excluir(int id)
-        {
-            service.Delete(id);
-
-            return RedirectToAction("Index");
-        }
-        #endregion
 
     }
 }
