@@ -1,0 +1,1 @@
+Para que o projto rode é preciso apenas rodar um update-database na base local, caso seja necessário alterar a string de conexão fazer a modificação em Infra > VolvoContext > optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=Volvo;Uid=sa;Pwd=testevolvo");
