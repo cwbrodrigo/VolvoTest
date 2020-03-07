@@ -1,0 +1,44 @@
+﻿@model TesteVolvo.Domain.Caminhao
+<div class="col-md-8">
+    <div class="card">
+        <div class="card-header card-header-info">
+            <h4 class="card-title">Adicionar caminhão</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Insert" asp-controller="Home" method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group bmd-form-group">
+                            <label >Nome</label>
+                            <input type="text" class="form-control" asp-for="Nome">
+                        </div>
+                        <span asp-validation-for="Nome" style="color:red"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group bmd-form-group">
+                            <label >Modelo</label>
+                            <select class="form-control" asp-for="Modelo" asp-items="ViewBag.ListModelo"></select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group bmd-form-group">
+                            <span>Modelo</span>
+                            <select class="form-control" asp-for="AnoModelo" asp-items="ViewBag.ListAno"></select>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="button" class="btn btn-info pull-right" id="btnVoltar">Voltar</button>
+                <button type="submit" class="btn btn-success pull-right">Adicionar</button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $("#btnVoltar").click(function () {
+        window.history.back();
+    });
+</script>

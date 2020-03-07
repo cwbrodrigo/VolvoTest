@@ -1,0 +1,99 @@
+﻿@model List<TesteVolvo.Domain.Caminhao>
+
+<style>
+    .buttonEdit {
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header card-header-success">
+                    <h4 class="card-title ">Lista de caminhões</h4>
+                    <p class="card-category"> Listagem de camonhões do sistema</p>
+                    <form asp-action="Insert" asp-controller="Home" method="get">
+                        <button class="btn float-right btn-success" title="Adicionar novo caminhão" rel="tooltip"><i class="fa fa-plus fa-2x"></i></button>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class=" text-default">
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        Nome
+                                    </th>
+                                    <th>
+                                        Modelo
+                                    </th>
+                                    <th>
+                                        Ano de Fabricação
+                                    </th>
+                                    <th>
+                                        Ano Modelo
+                                    </th>
+                                    <th>
+                                        Ações
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @item.Id
+                                        </td>
+                                        <td>
+                                            @item.Nome
+                                        </td>
+                                        <td>
+                                            @item.Modelo
+                                        </td>
+                                        <td>
+                                            @item.AnoFabricacao
+                                        </td>
+                                        <td>
+                                            @item.AnoModelo
+                                        </td>
+                                        <td class="td-actions">
+                                            <div class="">
+                                                <form asp-action="Update" asp-controller="Home" method="get">
+                                                    <button type="button" rel="tooltip" class="btn btn-success btn-round" data-original-title="" title="Editar" id="btnEdit" onclick="location.href='@Url.Action("Update", "Home", new { id = item.Id})'">
+                                                        <i class="material-icons">edit</i>
+                                                        <div class="ripple-container"></div>
+                                                    </button>
+                                                </form>
+                                                <form>
+                                                    <button type="button" rel="tooltip" class="btn btn-danger btn-round" data-original-title="" title="Excluir" onclick="location.href='@Url.Action("Excluir", "Home", new { id = item.Id})'">
+                                                        <i class="material-icons">close</i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+    })
+</script>
