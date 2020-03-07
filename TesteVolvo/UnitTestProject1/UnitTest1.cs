@@ -19,5 +19,20 @@ namespace UnitTestProject1
 
             Assert.IsFalse(string.IsNullOrEmpty(name));
         }
+
+        public void ModelYearTest()
+        {
+            string year = "2020";
+
+            Assert.IsTrue(ModelYearTestCompare(year);
+        }
+
+        public bool ModelYearTestCompare(string year)
+        {
+            if (!string.Equals(year, "2020") || !string.Equals(year, "2021"))
+                return false;
+
+            return true;
+        }
     }
 }
