@@ -68,17 +68,13 @@
                                         </td>
                                         <td class="td-actions">
                                             <div class="">
-                                                <form asp-action="Update" asp-controller="Home" method="get">
-                                                    <button type="button" rel="tooltip" class="btn btn-success btn-round" data-original-title="" title="Editar" id="btnEdit" onclick="location.href='@Url.Action("Update", "Home", new { id = item.Id})'">
-                                                        <i class="material-icons">edit</i>
-                                                        <div class="ripple-container"></div>
-                                                    </button>
-                                                </form>
-                                                <form>
-                                                    <button type="button" rel="tooltip" class="btn btn-danger btn-round" data-original-title="" title="Excluir" onclick="location.href='@Url.Action("Excluir", "Home", new { id = item.Id})'">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </form>
+                                                <button type="button" rel="tooltip" class="btn btn-success btn-round" data-original-title="" title="Editar" id="btnEdit" onclick="location.href='@Url.Action("Update", "Home", new { id = item.Id})'">
+                                                    <i class="material-icons">edit</i>
+                                                    <div class="ripple-container"></div>
+                                                </button>
+                                                <button type="button" rel="tooltip" class="btn btn-danger btn-round" data-original-title="" title="Excluir" onclick="location.href='@Url.Action("Excluir", "Home", new { id = item.Id})'">
+                                                    <i class="material-icons">close</i>
+                                                </button>
                                             </div>
                                         </td>
                                     </tr>
