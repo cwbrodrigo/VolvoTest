@@ -13,6 +13,7 @@ namespace UnitTestProject1
             Assert.AreEqual(year,"2020");
         }
 
+        [TestMethod]
         public void TestName()
         {
             string name = "Caminhao";
@@ -20,19 +21,20 @@ namespace UnitTestProject1
             Assert.IsFalse(string.IsNullOrEmpty(name));
         }
 
+        [TestMethod]
         public void ModelYearTest()
         {
             string year = "2020";
 
-            Assert.IsTrue(ModelYearTestCompare(year);
+            Assert.IsTrue(ModelYearTestCompare(year));
         }
 
         public bool ModelYearTestCompare(string year)
         {
-            if (!string.Equals(year, "2020") || !string.Equals(year, "2021"))
-                return false;
+            if (string.Equals(year, "2020") || string.Equals(year, "2021"))
+                return true;
 
-            return true;
+            return false;
         }
     }
 }
