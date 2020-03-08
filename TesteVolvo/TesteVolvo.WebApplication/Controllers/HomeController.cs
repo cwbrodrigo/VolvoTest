@@ -110,14 +110,14 @@ namespace TesteVolvo.WebApplication.Controllers
 
             SelectListItem ano1 = new SelectListItem
             {
-                Text = "2020",
-                Value = "2020"
+                Text = DateTime.Now.Year.ToString(),
+                Value = DateTime.Now.Year.ToString()
             };
 
             SelectListItem ano2 = new SelectListItem
             {
-                Text = "2021",
-                Value = "2021"
+                Text = DateTime.Now.AddYears(1).Year.ToString(),
+                Value = DateTime.Now.AddYears(1).Year.ToString()
             };
 
             lstAnoModelo.Add(ano1);
@@ -127,8 +127,8 @@ namespace TesteVolvo.WebApplication.Controllers
 
             SelectListItem anoFab = new SelectListItem
             {
-                Text = "2020",
-                Value = "2020"
+                Text = DateTime.Now.Year.ToString(),
+                Value = DateTime.Now.Year.ToString()
             };
 
             anoFabricacao.Add(anoFab);
